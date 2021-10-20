@@ -3,7 +3,9 @@
 ## About The Project
 
 In this app you can bookmark your favorite sites. <br/>You can add as many as you want. And once you have saved your bookmark, you will see the name and their icon on your page. When you click on one of you bookmarks it will redirect you in the new tab. <br/>
+If you have not entered both fields, or entered an invalid address, a pop up alert will notify you.
 Of course now, you can do this with all your browsers and even categorize them, but this project is intended to learn the JS methods and also bring some life and color to it.
+You can also customise and save this app as you default page everytime you open your browser, an it will display all your bookmarks.
 
 ## Preview
 
