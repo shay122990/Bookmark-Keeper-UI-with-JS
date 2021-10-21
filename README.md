@@ -10,7 +10,9 @@ You can also customise and save this app as you default page everytime you open 
 ## Preview
 
 ![Initial view](media/image1.gif)
-![Final view](media/image2.gif)
+![Redirect](media/image2.gif)
+![deleting](media/image3.gif)
+![Responsive](media/image4.gif)
 
 ## Built With
 

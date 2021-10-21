@@ -20,7 +20,7 @@ body {
 h1 {
   color: white;
   padding: 20px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
   border-radius: var(--border-radius);
   cursor: pointer;
   text-transform: uppercase;
@@ -30,7 +30,7 @@ h1 {
   text-align: center;
 }
 h1:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 /* Bookmarks */
 .container {
@@ -79,7 +79,7 @@ a:active {
 }
 /* Modal */
 .modal-container {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.3);
   display: none;
   position: fixed;
   top: 0;
@@ -93,9 +93,8 @@ a:active {
   align-items: center;
 }
 .modal {
-  border-radius: 20px;
   background-color: white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
   max-width: 95%;
   width: 500px;
   animation: modalopen 1s;
@@ -118,7 +117,13 @@ a:active {
   cursor: pointer;
 }
 .modal-header {
-  background: var(--primary-color);
+  background: linear-gradient(
+      217deg,
+      rgba(245, 4, 65, 0.849),
+      rgba(255, 0, 0, 0) 70.71%
+    ),
+    linear-gradient(127deg, rgb(74, 155, 107), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgb(59, 149, 253), rgba(0, 0, 255, 0) 70.71%);
   color: white;
   padding: 15px;
 }
@@ -145,14 +150,21 @@ h3 {
   display: block;
 }
 button {
+  font-size: 16px;
   cursor: pointer;
   color: white;
-  background-color: var(--primary-color);
+  background: linear-gradient(
+      217deg,
+      rgba(245, 4, 65, 0.849),
+      rgba(255, 0, 0, 0) 70.71%
+    ),
+    linear-gradient(127deg, rgb(74, 155, 107), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgb(59, 149, 253), rgba(0, 0, 255, 0) 70.71%);
   height: 30px;
   width: 100px;
   border: none;
   border-radius: var(--border-radius);
-  margin-top: 10px;
+  margin-top: 12px;
 }
 button:hover {
   filter: brightness(110%);
