@@ -79,7 +79,7 @@ function fetchBookmarks() {
     bookmarks = [
       {
         name: 'Netflix',
-        url: 'netflic.com',
+        url: 'netflix.com',
       },
     ];
     localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
